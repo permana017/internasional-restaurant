@@ -1,7 +1,7 @@
 <template>
-  <div class="w-screen h-screen bg-slate-100 flex overflow-hidden relative">
+  <div class="w-screen h-[100dvh] bg-slate-100 flex overflow-hidden relative">
     <Sidebar />
-    <div class="w-full overflow-hidden md:pl-[68px]">
+    <div style="h" class="w-full overflow-hidden md:pl-[68px]">
       <slot />
     </div>
   </div>
